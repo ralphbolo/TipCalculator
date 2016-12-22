@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                          amountTextView.setText("");
                          billAmount = 0.0;
                      }
+                    calculate();
                 }
 
                 @Override
